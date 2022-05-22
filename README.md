@@ -34,7 +34,7 @@
 
 ## 설치 방법
 ```bash
-git clone -b master https://github.com/kerus1024/softether-vpn-autosetup ./setupvpn
+git clone -b master https://github.com/coccobellof5/softether-vpn-autosetup ./setupvpn
 cd setupvpn
 bash setup.bash
 
@@ -119,7 +119,7 @@ bash setup.bash
 - 사용 예
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/kerus1024/softether-vpn-autosetup/master/tool/auto.bash ) \
+bash <(curl -s https://raw.githubusercontent.com/coccobellof5/softether-vpn-autosetup/master/tool/auto.bash ) \
 --tcp-port 443 \
 --password strong-admin-password \
 --add-user --add-user-username secuser01 --add-user-password 1q2w3e4r \
